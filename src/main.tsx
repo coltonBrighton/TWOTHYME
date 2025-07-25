@@ -14,15 +14,15 @@ let router = createHashRouter([
     Component: Layout,
     children: [
       {
-        path:"/home",
+        path:"home",
         Component: Home
       },
       {
-        path: "/meal-planner",
+        path: "meal-planner",
         Component: MealPlanner
       },
       {
-        path: "/recipes",
+        path: "recipes",
         Component: Recipes
       }
     ]
