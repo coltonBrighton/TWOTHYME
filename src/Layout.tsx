@@ -7,12 +7,12 @@ export default function Layout() {
 
   useEffect(() => {
     const pageTitles: Record<string, string> = {
-      "/home": "Home - FlavorForge",
-      "/meal-planner": "Meal Planner - FlavorForge",
-      "/recipes": "Recipes - FlavorForge",
+      "/home": "Home - TWOTHYME",
+      "/meal-planner": "Meal Planner - TWOTHYME",
+      "/recipes": "Recipes - TWOTHYME",
     };
 
-    document.title = pageTitles[location.pathname] || "FlavorForge";
+    document.title = pageTitles[location.pathname] || "TWOTHYME";
   }, [location.pathname]);
   return (
     <div className="max-w-screen min-h-screen">
