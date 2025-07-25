@@ -72,8 +72,8 @@ export default function Recipes() {
   const closeRecipeModal = () => setShowModal(false);
 
   return (
-    <div className="bg-blue-950 text-white min-h-screen flex">
-      <div className="w-full md:w-1/4">
+    <div className="bg-blue-950 text-white min-h-screen flex flex-col items-center md:flex-row md:items-start">
+      <div className="w-full max-w-md md:w-1/4">
         <Sidebar handleAddRecipe={handleAddRecipe} />
       </div>
       <div className="w-full md:w-3/4 p-4">
