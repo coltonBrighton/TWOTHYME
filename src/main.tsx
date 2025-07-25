@@ -2,13 +2,13 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Layout.tsx'
 import MealPlanner from './mealplanner/MealPlanner.tsx'
 import Recipes from './recipes/Recipes.tsx' 
 import Home from './Home.tsx'
 
-let router = createBrowserRouter([
+let router = createHashRouter([
   {
     path: "/",
     Component: Layout,
